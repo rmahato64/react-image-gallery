@@ -1,3 +1,7 @@
+body{
+  background-color: rgb(184, 184, 184);
+}
+
 .App {
   text-align: center;
 }
@@ -27,7 +31,13 @@
 .App-link {
   color: #61dafb;
 }
-
+button{
+  margin-top: 1rem;
+  width: 10rem;
+  height: 3rem;
+  font-size: 2rem;
+  font-weight:300;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

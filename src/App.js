@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import './animals.css'
 //import {animals} from "./data/animals.js"
@@ -67,6 +66,7 @@ class App extends Component {
     const { index, animals } = this.state;
     return (
       <div className="animal-div">
+        <h2>Click button for next image.</h2>
         <div>
           <h1>{animals[index].name}</h1>
           <img src={animals[index].image} alt={animals[index].name} />
